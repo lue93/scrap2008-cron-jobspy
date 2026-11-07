@@ -22,7 +22,7 @@ def executar_scraping():
     colunas_desejadas = [
         "site", "title", "company", "location", 
         "job_type", "interval", "min_amount", "max_amount", 
-        "job_url", "description"
+        "job_url"
     ]
     
     # Mantém apenas as colunas que existem no DataFrame gerado
