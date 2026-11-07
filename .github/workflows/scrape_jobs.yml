@@ -54,16 +54,22 @@ jobs:
             git push
           fi
 
+      - name: 📅 Obter Data Atual
+        id: date
+        run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
       - name: 🏷️ Criar Release Automática no GitHub
         if: steps.commit.outputs.changes_detected == 'true'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ env.TODAY }}
-          name: 📋 Relatório de Vagas - ${{ env.TODAY }}
+          tag_name: v${{ steps.date.outputs.TODAY }}
+          name: 📋 Relatório de Vagas - ${{ steps.date.outputs.TODAY }}
           body: |
             🤖 **Coleta automatizada realizada com sucesso!**
             
             As novas oportunidades de engenharia de software foram extraídas, apendadas no arquivo `jobs.md` e sincronizadas no `README.md`.
+          files: |
+            jobs.md
           files: |
             jobs.md
         env:
