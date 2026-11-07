@@ -1,0 +1,52 @@
+#
+# Abaixo está o arquivo de configuração completo e otimizado para o seu workflow do GitHub Actions.
+# Ele está programado para disparar todos os dias às 23:00 UTC, configurar o ambiente Python, 
+# instalar as dependências necessárias, executar o script main.py 
+# e atualizar automaticamente o repositório com o novo histórico em jobs.md e o README.md.
+#
+
+name: 🔄 Automação Diária de Coleta de Vagas
+
+on:
+  schedule:
+    - cron: '0 23 * * *' # Executa diariamente às 23:00 UTC (20:00 no Horário de Brasília)
+  workflow_dispatch:     # Permite disparar o script manualmente a qualquer momento pelo painel do GitHub
+
+permissions:
+  contents: write        # Concede permissão de escrita para que o bot possa fazer commit e push
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Clonar Repositório
+        uses: actions/checkout@v4
+
+      - name: 🐍 Configurar Ambiente Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip' # Habilita cache automático para acelerar a instalação de pacotes
+
+      - name: 📦 Instalar Dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-jobspy pandas tabulate
+
+      - name: 🚀 Executar Script de Coleta (main.py)
+        run: python main.py
+
+      - name: 💾 Commit e Push Automático das Alterações
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Adiciona os arquivos atualizados
+          git add jobs.md README.md
+          
+          # Verifica se houve mudanças reais antes de commitar para evitar commits vazios
+          git diff --staged --quiet || git commit -m "🤖 Atualização automática de vagas e README.md ($(date +'%Y-%m-%d'))"
+          
+          # Envia as alterações de volta para o repositório remoto
+          git push
