@@ -1,9 +1,4 @@
-#
-# Abaixo está o arquivo de configuração completo e otimizado para o seu workflow do GitHub Actions.
-# Ele está programado para disparar todos os dias às 23:00 UTC, configurar o ambiente Python, 
-# instalar as dependências necessárias, executar o script main.py 
-# e atualizar automaticamente o repositório com o novo histórico em jobs.md e o README.md.
-#
+
 name: 🔄 Automação Diária de Coleta de Vagas e Release
 
 on:
