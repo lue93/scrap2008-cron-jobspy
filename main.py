@@ -8,7 +8,7 @@ def executar_scraping():
     
     # Executa a extração via JobSpy com as colunas completas solicitadas
     jobs = scrape_jobs(
-        site_name=["indeed", "linkedin"], # "zip_recruiter", "glassdoor"],
+        site_name=["indeed"], # TODO: USE PROXY TO SCRAP "zip_recruiter", "glassdoor"
         search_term="software engineer",
         location="San Francisco, CA",
         results_wanted=20,
