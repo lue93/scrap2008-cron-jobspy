@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# 🎯 DECLARAÇÃO OBRIGATÓRIA DO PACOTE
+[project]
+name = "scrap2008-cron-jobspy"
+description = "scrap2008-cron-jobspy"
+readme = "README.md"
+requires-python = ">=3.8"
+dynamic = ["version"] # Informa que a versão vem de um arquivo externo
+
+# 🎯 FORÇAR O SETUPTOOLS A EMPACOTAR APENAS O PACOTE MAIS RECENTE
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]  # Define explicitamente a inclusão do último pacote
+#exclude = ["pkg_v0*", "pkg_v1*", "v0*", "v1*"] # Ignora versões antigas
+
+[tool.semantic_release]
+version_variable = ["__init__.py:__version__"]
+branch = "main"
+build_command = "pip install build && python -m build"
+
+[tool.semantic_release.changelog]
+changelog_file = "CHANGELOG.md"
+exclude_commit_patterns = []
+
+# Mapeia as tags de commit para as seções visíveis do arquivo Markdown
+[tool.semantic_release.changelog.environment]
+block_start_string = "{%"
+block_end_string = "%}"
+variable_start_string = "{{"
+variable_end_string = "}}"
+
+[tool.semantic_release.commit_parser_options]
+allowed_tags = ["feat", "fix", "docs", "style", "refactor", "perf", "test", "chore", "build", "build(deps)"]
+major_tags = ["feat!", "FEAT!"]
+minor_tags = ["feat"]
+patch_tags = ["fix", "perf"]
