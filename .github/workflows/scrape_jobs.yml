@@ -3,11 +3,16 @@ name: 🔄 Automação Diária de Coleta de Vagas e Release
 
 on:
   schedule:
-    - cron: '15 23 * * *' # Executa diariamente às 23:00 UTC
-  workflow_dispatch:     # Permite execução manual pelo painel do GitHub
+    # Roda todas as noites à meia-noite (00:00 UTC)
+    - cron: '0 0 * * *'
+  # Permite disparar manualmente na aba Actions do GitHub se necessário
+  workflow_dispatch:
 
 permissions:
-  contents: write        # Obrigatório para gravar commits e criar releases
+  contents: write
+  issues: write
+  pull-requests: write
+  id-token: write
 
 jobs:
   scrape-and-release:
