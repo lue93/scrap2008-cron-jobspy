@@ -38,9 +38,16 @@ def apendar_no_arquivo_markdown(df):
     md_path = "jobs.md"
     timestamp = datetime.now().strftime("%d/%m/%Y às %H:%M (UTC)")
     
-    # Converte o DataFrame para tabela Markdown (sem o cabeçalho padrão do pandas se o arquivo já existir)
     incluir_cabecalho = not os.path.exists(md_path) or os.path.getsize(md_path) == 0
-    tabela_markdown = df.to_markdown(index=False, header=incluir_cabecalho)
+    
+    # Gera a tabela markdown padrão via Pandas
+    tabela_markdown = df.to_markdown(index=False)
+    
+    # Se o arquivo já existe, removemos as duas primeiras linhas (cabeçalho e separador) para evitar duplicação
+    if not incluir_cabecalho:
+        linhas = tabela_markdown.splitlines()
+        if len(linhas) > 2:
+            tabela_markdown = "\n".join(linhas[2:])
     
     modo = "a" if not incluir_cabecalho else "w"
     
