@@ -65,7 +65,5 @@ jobs:
             As novas oportunidades de engenharia de software foram extraídas, apendadas no arquivo `jobs.md` e sincronizadas no `README.md`.
           files: |
             jobs.md
-          files: |
-            jobs.md
         env:
           TODAY: ${{ github.event.repository.updated_at || 'date +%Y-%m-%d' }} # Fallback ou data atual
