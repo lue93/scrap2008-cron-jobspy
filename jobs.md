@@ -25,3 +25,14 @@
 | indeed | Senior Machine Learning Engineer (Growth)                       | Discord          | San Francisco Bay Area, CA, USA | fulltime   | yearly     |       220000 |       275000 | https://www.indeed.com/viewjob?jk=86dda81c1f77d712 |
 | indeed | Senior Software Engineer - Apple Cloud Products - iCloud Photos | Apple            | San Francisco, CA, USA          | fulltime   | yearly     |       184700 |       324800 | https://www.indeed.com/viewjob?jk=3970805adfa054af |
 | indeed | Senior Backend Engineer                                         | Goliath Partners | San Francisco, CA, USA          | nan        | yearly     |       280000 |       325000 | https://www.indeed.com/viewjob?jk=d5771a5e97752ef7 |
+
+### 🕒 Coleta realizada em: 07/11/2026 às 13:41 (UTC)
+
+| indeed | Engenheiro(a) de Dados Sênior                                                 | YSSY      | Barueri, SP, Brazil   | nan        |            |              |              | https://br.indeed.com/viewjob?jk=d3d25c3cc39a169c |
+| indeed | Software Engineer Pleno                                                       | ClickBus  | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=8c220d400e78c133 |
+| indeed | Product Manager (PM) Tech Sênior - IA                                         | Serasa    | São Paulo, SP, Brazil | fulltime   |            |              |              | https://br.indeed.com/viewjob?jk=890f5f1a428c340e |
+| indeed | Pessoa Engenheira de Qualidade Sênior | Software Development Engineer in Test | C6 Bank   | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=674257435ef2863f |
+| indeed | Product Manager (PM) Tech Sênior - IA                                         | Experian  | São Paulo, SP, Brazil | fulltime   |            |              |              | https://br.indeed.com/viewjob?jk=578591f7289fa16f |
+| indeed | Desenvolvedor(a) Full Stack Especialista                                      | Claro     | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=bde62428f6eb8393 |
+| indeed | AI Engineer | Engenharia de Inteligência Artificial                           | LEFOSSE   | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=bc8b75a5e0165e2d |
+| indeed | Staff Software Engineer Fullstack                                             | turbi     | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=e483ffb70a5db050 |
