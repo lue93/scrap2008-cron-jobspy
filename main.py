@@ -10,10 +10,10 @@ def executar_scraping():
     jobs = scrape_jobs(
         site_name=["indeed"], # TODO: USE PROXY TO SCRAP "zip_recruiter", "glassdoor"
         search_term="software engineer",
-        location="San Francisco, CA",
+        location="São Paulo, SP",
         results_wanted=20,
         hours_old=72,
-        country_indeed="USA",
+        country_indeed="BRAZIL",
     )
     
     print(f"✅ Sucesso! Encontradas {len(jobs)} vagas.")
