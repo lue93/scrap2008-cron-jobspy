@@ -53,3 +53,9 @@
 | indeed | Product Manager (PM) Tech Sênior - IA                                         | Serasa    | São Paulo, SP, Brazil | fulltime   |            |              |              | https://br.indeed.com/viewjob?jk=890f5f1a428c340e |
 | indeed | Pessoa Engenheira de Qualidade Sênior | Software Development Engineer in Test | C6 Bank   | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=674257435ef2863f |
 | indeed | Product Manager (PM) Tech Sênior - IA                                         | Experian  | São Paulo, SP, Brazil | fulltime   |            |              |              | https://br.indeed.com/viewjob?jk=578591f7289fa16f |
+
+### 🕒 Coleta realizada em: 10/11/2026 às 06:12 (UTC)
+
+| indeed | Senior Software Engineer - Full Stack            | ClickBus  | São Paulo, SP, Brazil |            |            |              |              | https://br.indeed.com/viewjob?jk=b6b396e0a791f966 |
+| indeed | Staff Software Engineer - Full Stack (Agent Max) | iFood     | Osasco, SP, Brazil    |            |            |              |              | https://br.indeed.com/viewjob?jk=edf79d01e7aa7532 |
+| indeed | IA ENGINEER SPECIALIST II | CHANNELS             | Inter     | São Paulo, SP, Brazil |            |            |              |              | https://br.indeed.com/viewjob?jk=e6cedf858196bf40 |
