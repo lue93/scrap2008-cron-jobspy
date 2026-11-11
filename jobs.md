@@ -59,3 +59,9 @@
 | indeed | Senior Software Engineer - Full Stack            | ClickBus  | São Paulo, SP, Brazil |            |            |              |              | https://br.indeed.com/viewjob?jk=b6b396e0a791f966 |
 | indeed | Staff Software Engineer - Full Stack (Agent Max) | iFood     | Osasco, SP, Brazil    |            |            |              |              | https://br.indeed.com/viewjob?jk=edf79d01e7aa7532 |
 | indeed | IA ENGINEER SPECIALIST II | CHANNELS             | Inter     | São Paulo, SP, Brazil |            |            |              |              | https://br.indeed.com/viewjob?jk=e6cedf858196bf40 |
+
+### 🕒 Coleta realizada em: 11/11/2026 às 04:57 (UTC)
+
+| indeed | Senior Software Engineer - Full Stack            | ClickBus  | São Paulo, SP, Brazil |            |            |              |              | https://br.indeed.com/viewjob?jk=b6b396e0a791f966 |
+| indeed | IA ENGINEER SPECIALIST II | CHANNELS             | Inter     | São Paulo, SP, Brazil |            |            |              |              | https://br.indeed.com/viewjob?jk=e6cedf858196bf40 |
+| indeed | Staff Software Engineer - Full Stack (Agent Max) | iFood     | Osasco, SP, Brazil    |            |            |              |              | https://br.indeed.com/viewjob?jk=edf79d01e7aa7532 |
