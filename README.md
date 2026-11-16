@@ -6,7 +6,7 @@ Uses JobSpy MCP Server to aggretate job posting recursively with cron dispatcher
 
 <!--START_SECTION:jobs-->
 
-*Última atualização automatizada: **15/11/2026 às 05:07 (UTC)***
+*Última atualização automatizada: **16/11/2026 às 05:04 (UTC)***
 
 | site   | title                                  | company          | location              | job_type   | interval   | min_amount   | max_amount   | job_url                                           |
 |:-------|:---------------------------------------|:-----------------|:----------------------|:-----------|:-----------|:-------------|:-------------|:--------------------------------------------------|
@@ -15,6 +15,5 @@ Uses JobSpy MCP Server to aggretate job posting recursively with cron dispatcher
 | indeed | Software Engineer Sênior - Elixir      | SWAP             | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=c5a7bf0a81d45b1a |
 | indeed | QA                                     | GFT TECHNOLOGIES | Barueri, SP, Brazil   | nan        |            |              |              | https://br.indeed.com/viewjob?jk=db7cbf5fefd29320 |
 | indeed | QA Automation Engineer Sênior - Remoto | Verity           | São Paulo, SP, Brazil | internship |            |              |              | https://br.indeed.com/viewjob?jk=dcab1ffa253db701 |
-| indeed | Data Engineer Python + AWS             | EY               | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=46cf20fada6f2cc7 |
 
 <!--END_SECTION:jobs-->

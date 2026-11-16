@@ -103,3 +103,11 @@
 | indeed | QA                                     | GFT TECHNOLOGIES | Barueri, SP, Brazil   | nan        |            |              |              | https://br.indeed.com/viewjob?jk=db7cbf5fefd29320 |
 | indeed | QA Automation Engineer Sênior - Remoto | Verity           | São Paulo, SP, Brazil | internship |            |              |              | https://br.indeed.com/viewjob?jk=dcab1ffa253db701 |
 | indeed | Data Engineer Python + AWS             | EY               | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=46cf20fada6f2cc7 |
+
+### 🕒 Coleta realizada em: 16/11/2026 às 05:04 (UTC)
+
+| indeed | Software Engineer Júnior - Elixir      | SWAP             | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=1aa2155089aa2f14 |
+| indeed | Software Engineer Pleno - Elixir       | SWAP             | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=4b9f243d97bab203 |
+| indeed | Software Engineer Sênior - Elixir      | SWAP             | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=c5a7bf0a81d45b1a |
+| indeed | QA                                     | GFT TECHNOLOGIES | Barueri, SP, Brazil   | nan        |            |              |              | https://br.indeed.com/viewjob?jk=db7cbf5fefd29320 |
+| indeed | QA Automation Engineer Sênior - Remoto | Verity           | São Paulo, SP, Brazil | internship |            |              |              | https://br.indeed.com/viewjob?jk=dcab1ffa253db701 |
