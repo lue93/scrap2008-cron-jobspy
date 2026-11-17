@@ -111,3 +111,10 @@
 | indeed | Software Engineer Sênior - Elixir      | SWAP             | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=c5a7bf0a81d45b1a |
 | indeed | QA                                     | GFT TECHNOLOGIES | Barueri, SP, Brazil   | nan        |            |              |              | https://br.indeed.com/viewjob?jk=db7cbf5fefd29320 |
 | indeed | QA Automation Engineer Sênior - Remoto | Verity           | São Paulo, SP, Brazil | internship |            |              |              | https://br.indeed.com/viewjob?jk=dcab1ffa253db701 |
+
+### 🕒 Coleta realizada em: 17/11/2026 às 06:51 (UTC)
+
+| indeed | AI Engineer Sênior - REMOTO     | Verity          | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=abdc55c6ea8ab9d7 |
+| indeed | Senior Staff Software Engineer  | PRAVALER        | São Paulo, SP, Brazil | nan        |            |              |              | https://br.indeed.com/viewjob?jk=23e526d250f42715 |
+| indeed | AI Engineer (Microsoft)         | TD SYNNEX       | São Paulo, SP, Brazil | fulltime   |            |              |              | https://br.indeed.com/viewjob?jk=784be370f28ec631 |
+| indeed | Software Engineer Senior - Java | Integrity Group | Barueri, SP, Brazil   | nan        |            |              |              | https://br.indeed.com/viewjob?jk=9d75744f1c337042 |
